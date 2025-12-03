@@ -2,6 +2,13 @@
     font-family: 'Inter';
     transition: all 0.1s ease-in-out;
 }
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 h1 {
     font-weight: 700;
@@ -116,6 +123,7 @@ button:hover {
 }
 .down {
     display: flex;
+    gap: 65px;
 }
 .managment {
     width: 100%;
@@ -128,6 +136,8 @@ button:hover {
 }
 .elem3 {
     display: flex;
+    align-items: center;
+    padding: 25px;
 }
 .left4 {
     width: 697px;
@@ -136,3 +146,4 @@ button:hover {
 .imgg {
     margin: 65px;
 }
+ 
