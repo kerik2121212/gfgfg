@@ -1,0 +1,138 @@
+* {
+    font-family: 'Inter';
+    transition: all 0.1s ease-in-out;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+}
+
+h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: -2%;
+    margin-bottom: 24px;
+}
+
+h5 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -2%;
+}
+
+h6 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: 16px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -2%;
+}
+
+a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -2%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: -2%;
+
+    background: #4F9CF9;
+    color: #fff;
+    border-radius: 8px;
+    padding: 20px 40px;
+    display: flex;
+    gap: 10px;
+    margin-top: 60px;
+}
+
+button::after {
+    content: "→";
+    font-size: 18px;
+}
+
+button:hover {
+    transform: scale(1.05) translateY(-6px);
+    box-shadow: 0px 4px 16px #0000002d;
+}
+
+.container {
+    width: 100%;
+    max-width: 1480px;
+    margin: 0 auto;
+}
+.getmore {
+    color: white;
+    font-size: 64px;
+}
+.pp {
+    color: white;
+    font-size: 30px;
+}
+.hero {
+    background-color: #4F9CF9;
+    width: 100%;
+    height: 829px;
+}
+.elem1 {
+    display: flex;
+}
+.elem2 {
+    display: flex;
+}
+.hh {
+    font-size: 72px;
+}
+.ppp {
+    font-size: 30px;
+}
+.down {
+    display: flex;
+}
+.managment {
+    width: 100%;
+    height: 1588px;
+}
+.Extension {
+    background-color: #4F9CF9;
+    width: 100%;
+    height: 759px;
+}
+.elem3 {
+    display: flex;
+}
+.left4 {
+    width: 697px;
+    height: 294px;
+}
+.imgg {
+    margin: 65px;
+}
